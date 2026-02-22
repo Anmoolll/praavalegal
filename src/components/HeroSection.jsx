@@ -68,7 +68,7 @@ export default function HeroSection() {
         </div>
 
         {/* Right: Floating Cards */}
-        <div className="relative mt-16 h-[420px] w-full flex-1 lg:mt-0 lg:h-[520px] hidden sm:block">
+        <div className="relative mt-16 h-[320px] w-full flex-1 scale-[0.65] sm:scale-100 sm:h-[420px] lg:mt-0 lg:h-[520px]">
           {/* Large blur blob behind cards */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-72 w-72 rounded-full bg-[#c5cbec] opacity-30 blur-3xl transition-colors duration-500 dark:bg-[#1a1840]" />
 

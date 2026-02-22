@@ -6,7 +6,7 @@ A single platform to manage every part of your legal work.
 
 | Light Mode | Dark Mode |
 |:---:|:---:|
-| ![Light Mode](screenshots/light-mode.png) | ![Dark Mode](screenshots/dark-mode.png) |
+| ![Light Mode](images/lightMode.png) | ![Dark Mode](images/darkMode.png) |
 
 ## Features
 

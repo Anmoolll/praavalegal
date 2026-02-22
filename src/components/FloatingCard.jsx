@@ -16,7 +16,7 @@ export default function FloatingCard({
   if (variant === "portal") {
     return (
       <div
-        className="absolute flex items-center gap-3 rounded-2xl px-4 py-3 shadow-lg transition-all duration-300 hover:scale-105 cursor-default animate-float-in"
+        className="absolute flex items-center gap-3 rounded-2xl px-4 py-3 shadow-lg transition-[scale] duration-300 hover:scale-105 cursor-default animate-float-in"
         style={{
           backgroundColor: color,
           "--card-rotation": rotation,
@@ -44,7 +44,7 @@ export default function FloatingCard({
 
   return (
     <div
-      className="absolute flex items-center gap-3 rounded-full px-6 py-3.5 shadow-lg transition-all duration-300 hover:scale-105 cursor-default animate-float-in"
+      className="absolute flex items-center gap-3 rounded-full px-6 py-3.5 shadow-lg transition-[scale] duration-300 hover:scale-105 cursor-default animate-float-in"
       style={{
         backgroundColor: color,
         "--card-rotation": rotation,
